@@ -11,6 +11,6 @@
 
     <servlet-mapping>
         <servlet-name>SampleAPIController</servlet-name>
-        <url-pattern>/sample/</url-pattern>
+        <url-pattern>/api</url-pattern>
     </servlet-mapping>
 </web-app>

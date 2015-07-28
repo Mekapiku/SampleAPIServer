@@ -4,7 +4,6 @@ import beans.TempSensorData;
 import utils.JsonUtil;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,7 +13,6 @@ import java.util.Date;
 /**
  * Created by mitsuyasu on 2015/07/27.
  */
-@WebServlet("/api")
 public class SampleAPIController extends HttpServlet {
 
     @Override
